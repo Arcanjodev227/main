@@ -56,18 +56,28 @@ h1, h2, h3 { color: #00adb5; }
     align-items: center;      /* Centraliza os botões horizontalmente */
     gap: 20px;
     margin-top: 30px;
-    max-height: 350px;        /* Altura fixa para o scroll aparecer */
-    overflow-y: auto;         /* Ativa o rolamento lateral */
     padding: 10px;
+
+    /* ISSO FAZ O ROLAMENTO APARECER: */
+    max-height: 450px;        /* Define um tamanho limite para a caixa */
+    overflow-y: scroll;       /* Força a barra de rolagem a ficar visível */
+    padding: 15px;
+    box-sizing: border-box;
 }
+
 
 /* Estilização da Barra de Rolagem */
-.lista-projetos-scroll::-webkit-scrollbar { width: 8px; }
+.lista-projetos-scroll::-webkit-scrollbar { width: 10px; }
+
 .lista-projetos-scroll::-webkit-scrollbar-thumb {
-    background-color: #00adb5;
+   background-color: #00adb5; /* Azul do seu tema */
+    border-radius: 10px;
+    border: 2px solid #1e1e1e; /* Cria um contorno para destacar */
+}
+.lista-projetos-scroll::-webkit-scrollbar-track {
+    background: #121212;      /* Fundo da trilha da barra */
     border-radius: 10px;
 }
-
 /* Botões de Projeto (Menores e Centralizados) */
 .projeto-card {
     background-color: #121212; 
