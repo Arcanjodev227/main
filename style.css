@@ -62,7 +62,7 @@ h3 {
 }
 
 /* Estilo Base dos Botões */
-.botao-email, .botao-whatsapp {
+.botao-email, .botao-discord {
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -75,10 +75,10 @@ h3 {
 }
 
 .botao-email { background-color: #007d82; }
-.botao-whatsapp { background-color: #25d366; }
+.botao-discord { background-color: #5865f2; }
 
 /* Efeito Hover unificado */
-.botao-email:hover, .botao-whatsapp:hover {
+.botao-email:hover, .botao-discord:hover {
     transform: scale(1.05);
     opacity: 0.8;
 }
