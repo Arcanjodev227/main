@@ -24,11 +24,14 @@ h1.titulo-principal {
 }
 
 h1 { 
-    color: #f5f5f5;
+    color: #00adb5;
 }
 h2 {
     color: #00adb5;
     margin-top: 30px;
+}
+h3 {
+    color: #00adb5;
 }
 
 /* Lista de Habilidades */
@@ -85,4 +88,68 @@ hr {
     height: 1px;
     background: #333;
     margin: 40px 0;
+}
+.lista-projetos {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px
+}
+.card-projeto {
+    background-color: #252525;
+    color:white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    transition: 0.3s;
+    border:1px solid#333;
+}
+.card-projeto:hover { 
+    background-color: #b51500;
+    transform:scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0,0,0, 0.3);
+}
+ul {
+    list-style: none; /* Remove as bolinhas */
+    padding: 0;
+    margin: 0;
+}
+/* Centraliza a lista de links */
+.lista-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Estiliza os cards de projeto como links clicáveis */
+.projeto-card {
+    background: #0302028e;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #05bff7;
+    border-radius: 8px;
+    text-decoration: none; /* Remove o sublinhado azul de link */
+    color: white;
+    width: 80%; /* Faz o botão ter um tamanho bom */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: 0.3s;
+}
+
+.projeto-card:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+/* Remove as bolinhas brancas da lista de tecnologias */
+ul {
+    list-style: none;
+    padding: 0;
 }
