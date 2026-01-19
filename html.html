@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-    <header>
-        <h1>Aprendizados de HTML</h1>
-<ul>
-    <li>Estrutura básica (Doctype, Head, Body)</li>
-    <li>Tags de texto (h1, p, span)</li>
-    <li>Links e Navegação (a, href)</li>
-    <li>Listas organizadas e desorganizadas (ul, li)</li>
-</ul>
-<a href="index.html">Voltar para a pagina inicial</a>
-    </header>
+    <title>Aprendizados de HTML</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    
+    <header class="menu-fixo">
+        <h1> Olá Estranho</h1>
+    <nav>
+        <a href="index.html#sobre">Sobre mim</a>
+        <a href="projetos.html">Projetos</a> 
+        <a href="index.html#contato">Contato</a>
+    </nav>
+</header>
+
+    <div class="container">
+            <h1>Aprendizados de HTML</h1>
+        <main>
+            <ul class="lista-tecnologias">
+                <li><strong>Estrutura básica:</strong> Aprendi a usar Doctype, Head e Body para iniciar qualquer projeto.</li>
+                <li><strong>Tags de texto:</strong> Dominei o uso de h1 para títulos e p para parágrafos.</li>
+                <li><strong>Links e Navegação:</strong> Entendi como usar a tag "a" com href e target="_blank".</li>
+                <li><strong>Listas:</strong> Aprendi a organizar dados com ul e li.</li>
+            </ul>
+        </main>
+
+        <br>
+        <a href="index.html" class="botao-email">Voltar para a início</a>
+    </div>
 </body>
 </html>
