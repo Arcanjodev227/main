@@ -3,30 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendizados de HTML</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <title>Meu Site | Arcanjo-Dev227</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
 <body>
     <header class="menu-fixo">
-        <h1> Olá Estranho</h1>
-    <nav>
-        <a href="index.html#sobre">Sobre mim</a>
-        <a href="projetos.html">Projetos</a> 
-        <a href="index.html#contato">Contato</a>
-    </nav>
-</header>
+        <h1>Olá Estranho</h1>
+        <nav>
+            <a href="index.html#sobre">Sobre mim</a>
+            <a href="projetos.html">Projetos</a> 
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-    <div class="container">
-            <h1>Aprendizados de HTML</h1>
-        <main>
-            <ul class="lista-tecnologias">
-                <li><strong>Estrutura básica:</strong> Aprendi a usar Doctype, Head e Body para iniciar qualquer projeto.</li>
-                <li><strong>Tags de texto:</strong> Dominei o uso de h1 para títulos e p para parágrafos.</li>
-                <li><strong>Links e Navegação:</strong> Entendi como usar a tag "a" com href e target="_blank".</li>
-                <li><strong>Listas:</strong> Aprendi a organizar dados com ul e li.</li>
-            </ul>
-        </main>
+    <main class="container">
+        <section id="sobre">
+            <div class="formacao">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Formação</h3>
+                <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas (ADS)</p>
+                <p><strong>Status:</strong> Em andamento</p>
+                <hr>
+            </div>
 
-        <br>
-    </div>
+            <h2>Sobre mim</h2>
+            <div class="texto-sobre">
+                <p>
+                    Olá! Online me chamam de Arcanjo e raramente Kanjo. Estou começando na área de tecnologia mergulhado no curso de 
+                    <strong>Análise e Desenvolvimento de Sistemas (ADS)</strong>. 
+                    Minha jornada começou com a curiosidade de entender como as aplicações funcionam por trás da interface.
+                </p>
+                
+                <p>
+                    Atualmente, meu foco principal é dominar o ecossistema <strong>Full-Stack</strong>, 
+                    com uma base sólida em <strong>HTML5, CSS3 e JavaScript</strong>. 
+                    Acredito que o desenvolvimento de software trata-se de resolver problemas reais de forma eficiente e escalável.
+                </p>
+
+                <p>
+                    Sou uma pessoa focada em aprendizado contínuo e trabalho em equipe. 
+                    Estou aprimorando minhas habilidades para colaborar com projetos inovadores e crescer no mercado de tecnologia.
+                </p>
+
+                <p> 
+                    Fique à vontade para entrar em contato pelo <strong>Discord (kanjo227)</strong> (resposta quase instantânea). 
+                    Como alternativa, envie um e-mail para <strong>arcanjo20050@gmail.com</strong> (pode demorar um pouco mais).
+                </p>
+            </div>
+
+            <div class="tecnologias">
+                <h3>Minhas Tecnologias:</h3>
+                <ul class="lista-habilidades">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato"> 
+        <p>Contatos Profissionais:</p>
+        <div class="botoes-contato">
+            <a href="https://discord.com/users/kanjo227" target="_blank" class="botao-discord">
+                <i class="fa-brands fa-discord"></i> Discord
+            </a>
+            <a href="mailto:arcanjo20050@gmail.com" class="botao-email"> 
+                <i class="fa-solid fa-envelope"></i> E-MAIL
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
