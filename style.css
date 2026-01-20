@@ -3,7 +3,7 @@
     --primary-color: #00adb5;
     --bg-dark: #121212;
     --card-bg: #1e1e1e;
-    --text-white: #ffffff;
+    --text-white: #f0f0f0e7;
     --transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -71,7 +71,7 @@ h1 {
 /* 4. Containers (Estilo Glassmorphism Suave) */
 .container, .container-projetos {
     max-width: 850px;
-    margin: 0 auto 50px;
+    margin: 50px  auto;
     padding: 40px;
     background-color: var(--card-bg);
     border-radius: 20px;
