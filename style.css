@@ -71,7 +71,7 @@ h1 {
 /* 4. Containers (Estilo Glassmorphism Suave) */
 .container, .container-projetos {
     max-width: 850px;
-    margin: 50px  auto;
+    margin: 50px auto;
     padding: 40px;
     background-color: var(--card-bg);
     border-radius: 20px;
@@ -191,4 +191,40 @@ footer#contato {
     transform: translateY(-5px);
     filter: brightness(1.2);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+/* Estilo específico para os links do menu ativo */
+.menu-fixo nav a.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Melhoria na informação interna do Card */
+.card-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.card-info strong {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.card-info span {
+    font-size: 0.85rem;
+    color: #bbb;
+}
+
+/* Ícone de seta no canto do card */
+.projeto-card i {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-left: 15px;
+    transition: transform 0.3s;
+}
+
+.projeto-card:hover i {
+    transform: translateX(5px); /* Seta "empurra" indicando clique */
 }

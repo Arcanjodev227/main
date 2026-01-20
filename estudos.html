@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Estudos - Arcanjo</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <title>Estudos | Arcanjo-Dev227</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
     <header class="menu-fixo">
-    <h1>Olá!</h1>
-    <nav>
-        <a href="index.html#sobre">Sobre mim</a>
-        <a href="estudos.html">Estudos</a> 
-    </nav>
-</header>
+        <nav>
+            <a href="index.html">Sobre mim</a>
+            <a href="estudos.html" class="active">Estudos</a> 
+            <a href="index.html#contato">Contato</a>
+        </nav>
+    </header>
 
-<main class="container">
-    <h2>Meus Estudos</h2>
-    <div class="lista-projetos-scroll">
-        <a href="html.html" class="projeto-card">
-            <span>Tudo que aprendi de Html</span>
-        </a>
+    <h1>Meus Estudos</h1>
 
-        <a href="css.html" class="projeto-card">
-            <span>Tudo que aprendi de CSS</span>
-        </a>
+    <main class="container-projetos">
+        <section class="estudos-secao">
+            <h3><i class="fa-solid fa-code"></i> Trilhas de Aprendizado</h3>
+            <p>Abaixo estão os projetos e módulos que venho desenvolvendo durante minha formação.</p>
+            
+            <div class="lista-projetos-scroll">
+                
+                <a href="html.html" class="projeto-card">
+                    <div class="card-info">
+                        <strong>Módulo HTML5</strong>
+                        <span>Estruturação, Tags Semânticas e Acessibilidade</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
 
-        <a href="Js.html" class="projeto-card">
-            <span>O que estou aprendendo de JS</span>
-        </a>
-    </div>
-    
-</main>
-</div>
-</main>
+                <a href="css.html" class="projeto-card">
+                    <div class="card-info">
+                        <strong>Módulo CSS3</strong>
+                        <span>Flexbox, Grid, Variáveis e Animações</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+
+                <a href="Js.html" class="projeto-card">
+                    <div class="card-info">
+                        <strong>Módulo JavaScript</strong>
+                        <span>Manipulação de DOM, Funções e Lógica</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato"> 
+        <p>Gostou do meu progresso? Entre em contato:</p>
+        <div class="botoes-contato">
+            <a href="https://discord.com/users/kanjo227" target="_blank" class="botao-discord">
+                <i class="fa-brands fa-discord"></i> Discord
+            </a>
+            <a href="mailto:arcanjo20050@gmail.com" class="botao-email"> 
+                <i class="fa-solid fa-envelope"></i> E-MAIL
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
