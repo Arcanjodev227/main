@@ -1,6 +1,8 @@
 /* Configurações Globais */
-html {
-    scroll-behavior: smooth;
+html , body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -8,9 +10,9 @@ body {
     background-color: #121212;
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 80px; /* Cria um respiro após o rodapé */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Menu Superior Fixo */
@@ -36,7 +38,7 @@ body {
     color: #00adb5;
 }
 
-/* Container Principal (Estilo "Sobre Mim") */
+/* Container Principal */
 .container, .container-projetos {
     max-width: 800px;
     margin: 0 auto 40px auto;
@@ -44,8 +46,9 @@ body {
     background-color: #1e1e1e;
     border-radius: 15px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
-    border-left: 5px solid #00adb5; /* Linha azul lateral do bloco */
+    border-left: 5px solid #00adb5;
     box-sizing: border-box;
+    flex-shrink: 0; /* Impede que o container amasse */
 }
 
 h1, h2, h3 { color: #00adb5; }
@@ -118,17 +121,21 @@ h1, h2, h3 { color: #00adb5; }
     border-left: 3px solid #00adb5;
 }
 
+/* Rodapé e Contatos (Ajuste Definitivo) */
 footer#contato {
-    margin-top: 50px;     /* Espaço entre o container de texto e os contatos */
-    padding-bottom: 20px;
-    text-align: center;
+    margin-top: auto;      /* EMPURRA o rodapé para o fim da página se houver pouco conteúdo */
+    padding-top: 60px;     /* Espaço acima do texto "Contatos Profissionais" */
+    padding-bottom: 80px;  /* ESPAÇO NO FINAL DA PÁGINA: Isso descola os botões do fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botoes-contato {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 25px; /* Espaço entre o texto e os botões */
+    margin-top: 30px;      /* Espaço entre o título e os botões */
 }
 
 .botao-email { background-color: #007d82; }
