@@ -3,45 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendizados JS | Arcanjo-Dev</title>
+    <title>Estudos JavaScript | Arcanjo-Dev227</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <header class="menu-fixo">
-        <h1>Aprendizado JavaScript</h1>
         <nav>
-            <a href="index.html#sobre">Sobre mim</a>
+            <a href="index.html">Sobre mim</a>
             <a href="estudos.html">Estudos</a> 
+            <a href="index.html#contato">Contato</a>
         </nav>
     </header>
 
     <main class="container">
-        <h2>O que estou aprendendo de JavaScript</h2>
-        
-        <div class="texto-sobre" style="text-align: left;">
-            <p>O JavaScript deu vida aos meus projetos, permitindo criar interatividade real:</p>
-            
-            <ul class="lista-habilidades" style="justify-content: flex-start; flex-direction: column;">
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Manipulação de DOM:</strong> Como alterar textos, cores e elementos da página em tempo real.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Lógica de Programação:</strong> Uso de variáveis, funções, loops e condições.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Eventos:</strong> Captura de cliques, envios de formulários e movimentos do mouse.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Consumo de APIs:</strong> (Em andamento) Aprendendo a buscar dados externos para o site.
-                </li>
-            </ul>
+        <div class="breadcrumb">
+            <a href="estudos.html"><i class="fa-solid fa-arrow-left"></i> Voltar para Estudos</a>
         </div>
 
-        <hr>
+        <h1>Estudos de JavaScript</h1>
         
+        <div class="texto-sobre">
+            <p>Onde a mágica acontece. Estudo como dar vida às páginas, criando interatividade e lógica de programação.</p>
+        </div>
+
+        <div class="grid-conceitos">
+            <div class="conceito-card">
+                <i class="fa-solid fa-gears"></i>
+                <h4>DOM</h4>
+                <p>Manipulação de elementos HTML em tempo real através de eventos e scripts.</p>
+            </div>
+            <div class="conceito-card">
+                <i class="fa-solid fa-code-branch"></i>
+                <h4>Lógica</h4>
+                <p>Estruturas de repetição, condições e funções para resolver problemas.</p>
+            </div>
+            <div class="conceito-card">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <h4>Consumo de APIs</h4>
+                <p>Integração com serviços externos para carregar dados dinamicamente.</p>
+            </div>
+        </div>
     </main>
 
+    <footer id="contato"> 
+        <div class="botoes-contato">
+            <a href="https://discord.com/users/kanjo227" target="_blank" class="botao-discord">Discord</a>
+            <a href="mailto:arcanjo20050@gmail.com" class="botao-email">E-MAIL</a>
+        </div>
+    </footer>
 </body>
 </html>

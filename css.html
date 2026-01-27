@@ -3,44 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendizados CSS | Arcanjo-Dev</title>
+    <title>Estudos CSS3 | Arcanjo-Dev227</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <header class="menu-fixo">
-        <h1>Aprendizado CSS</h1>
         <nav>
-            <a href="index.html#sobre">Sobre mim</a>
+            <a href="index.html">Sobre mim</a>
             <a href="estudos.html">Estudos</a> 
+            <a href="index.html#contato">Contato</a>
         </nav>
     </header>
 
     <main class="container">
-        <h2>O que aprendi de CSS3</h2>
-        
-        <div class="texto-sobre" style="text-align: left;">
-            <p>Com o CSS, aprendi a transformar estruturas simples em interfaces modernas e atraentes:</p>
-            
-            <ul class="lista-habilidades" style="justify-content: flex-start; flex-direction: column;">
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Flexbox & Grid:</strong> Domínio de layouts flexíveis e alinhamentos precisos.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Estilização Avançada:</strong> Uso de degradês, sombras (box-shadow) e bordas personalizadas.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Responsividade:</strong> Uso de Media Queries para que o site funcione em celulares e PCs.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Animações:</strong> Transições suaves e efeitos de hover para melhorar a experiência do usuário.
-                </li>
-            </ul>
+        <div class="breadcrumb">
+            <a href="estudos.html"><i class="fa-solid fa-arrow-left"></i> Voltar para Estudos</a>
         </div>
 
-        <hr>
+        <h1>Estudos de CSS3</h1>
+        
+        <div class="texto-sobre">
+            <p>Aqui documento meu progresso em estilização, layouts modernos e como tornar as interfaces atraentes e responsivas.</p>
+        </div>
+
+        <div class="grid-conceitos">
+            <div class="conceito-card">
+                <i class="fa-solid fa-table-cells-large"></i>
+                <h4>Flexbox & Grid</h4>
+                <p>Domínio de layouts flexíveis e grades complexas para alinhamento perfeito.</p>
+            </div>
+            <div class="conceito-card">
+                <i class="fa-solid fa-palette"></i>
+                <h4>Variáveis & Cores</h4>
+                <p>Uso de Custom Properties para criar temas organizados e fáceis de manter.</p>
+            </div>
+            <div class="conceito-card">
+    <i class="fa-solid fa-mobile-screen-button"></i>
+    <h4>Responsividade</h4>
+    <p>Criação de sites que funcionam em qualquer dispositivo com Media Queries.</p>
+</div>
     </main>
 
+    <footer id="contato"> 
+        <div class="botoes-contato">
+            <a href="https://discord.com/users/kanjo227" target="_blank" class="botao-discord">Discord</a>
+            <a href="mailto:arcanjo20050@gmail.com" class="botao-email">E-MAIL</a>
+        </div>
+    </footer>
 </body>
 </html>

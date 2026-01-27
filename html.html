@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendizados HTML | Arcanjo-Dev</title>
+    <title>Estudos HTML5 | Arcanjo-Dev227</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <header class="menu-fixo">
-        <h1>Aprendizado HTML</h1>
         <nav>
-            <a href="index.html#sobre">Sobre mim</a>
+            <a href="index.html">Sobre mim</a>
             <a href="estudos.html">Estudos</a> 
         </nav>
     </header>
 
     <main class="container">
-        <h2>O que aprendi de HTML5</h2>
-        
-        <div class="texto-sobre" style="text-align: left;">
-            <p>Neste módulo, mergulhei nos conceitos fundamentais da estruturação de páginas web:</p>
-            
-            <ul class="lista-habilidades" style="justify-content: flex-start; flex-direction: column;">
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Tags Semânticas:</strong> Uso de header, main, section, article e footer para melhor SEO.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Formulários:</strong> Criação de inputs, labels e validações de dados.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Multimídia:</strong> Inserção correta de imagens, áudios e vídeos nativos.
-                </li>
-                <li style="border-left: 3px solid #00adb5; background: #252525; margin-bottom: 10px;">
-                    <strong>Links e Navegação:</strong> Entendimento de caminhos relativos e absolutos.
-                </li>
-            </ul>
-
-            <p style="margin-top: 20px;">
-                O HTML é a base de tudo, e dominá-lo me permitiu construir a estrutura sólida que você vê neste site.
-            </p>
+        <div class="breadcrumb">
+            <a href="estudos.html"><i class="fa-solid fa-arrow-left"></i> Voltar para Estudos</a>
         </div>
 
-        <hr>
+        <h1>Estudos de HTML5</h1>
+        
+        <div class="texto-sobre">
+            <p>Nesta seção, documento minha evolução na estruturação de páginas web, focando em semântica e boas práticas.</p>
+        </div>
+
+        <div class="grid-conceitos">
+            <div class="conceito-card">
+                <i class="fa-solid fa-layer-group"></i>
+                <h4>Semântica</h4>
+                <p>Uso correto de tags como header, main, section e article para SEO.</p>
+            </div>
+            <div class="conceito-card">
+                <i class="fa-solid fa-universal-access"></i>
+                <h4>Acessibilidade</h4>
+                <p>Implementação de atributos ARIA e tags alt para leitores de tela.</p>
+            </div>
+            <div class="conceito-card">
+                <i class="fa-solid fa-list-check"></i>
+                <h4>Formulários</h4>
+                <p>Criação de inputs validados e estruturação de dados para o back-end.</p>
+            </div>
+            
+        </div>
     </main>
 
+    <footer id="contato"> 
+        <div class="botoes-contato">
+            <a href="https://discord.com/users/kanjo227" target="_blank" class="botao-discord">Discord</a>
+            <a href="mailto:arcanjo20050@gmail.com" class="botao-email">E-MAIL</a>
+        </div>
+    </footer>
 </body>
 </html>
